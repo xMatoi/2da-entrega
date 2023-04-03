@@ -1,0 +1,183 @@
+body{
+    margin: 0px;
+    background-color: #EBEAEF;
+}
+#login{   
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+     background-color:#4A654C;
+     height: 100vh;   
+}
+
+#hola{
+    color: rgb(92, 92, 92) !important;
+}
+
+ form{
+    background-color:aliceblue;
+    border-top-left-radius: 10%;
+    display: grid;
+    align-items: center;
+  
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.espaciosdeformulario{
+    background-color: rgb(245, 9, 9);
+    color: black;
+
+}
+
+#btn{
+    background-color: #ffffff;
+    border-radius: 15%;
+    display: flex;
+    margin-top: 20px;
+    height: 35%;
+}
+
+#hh1{
+    background-color: #4A654C;
+    border-radius: 15%;
+   /* 
+    margin: 0%;
+    padding: 0%; */
+    border: 0;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+#hh{
+    background-color: #ffffff;
+   border-bottom-right-radius: 20%;
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    border-radius: 15%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+}
+
+#boton-ingresar{
+    background-color:#4A654C;
+    border-radius: 10%;
+    border: 0;
+    margin-block-end: 20%;
+    text-align: center;
+    justify-content: center;
+    
+}
+h3{
+    color: azure;
+    text-align: center;
+
+}
+
+.impp{
+    
+    border-radius: 10%;
+    border: 0;
+    height: 60%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+    
+}
+
+#hh2{
+display: flex;
+justify-content: center;
+}
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+#maxdev{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+#form1{
+    background-color: #EBEAEF;
+       
+}
+#form2{
+border-radius: 10%;
+        border: 0;
+        
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+}
+
+.fotos{
+    width: 70px;
+}
+
+#mn{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+h4{
+    color: azure;
+    text-align: center;
+
+}
+#nav4{
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+    margin-block-end: 10px;
+}
+#todos-contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;   
+
+}
+
+#dd{
+    display:grid;
+}
+
+#carrito{
+display: grid;
+grid-template-rows: 1fr 1fr;
+height: 750px; 
+margin: 10px;}
+
+.carrito-total{
+    display: flex;
+    justify-content: space-between;
+}
+
+#totall{
+    display: grid;
+    height: 180px
+
+}
+
+#realiza-compra-btn{
+    margin-top: 10px;
+    background-color: #4A654C;
+    border-radius: 15%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
