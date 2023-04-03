@@ -1,0 +1,94 @@
+
+body{
+    margin: 0px;
+    background-size:cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(44, 44, 44);
+}
+
+
+
+#form{
+    background-color: rgb(18, 18, 18);
+    color: white;
+    height: 60vh;
+    width: 20vw;
+    border-radius: 20px;
+    padding: 30px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+
+
+#form h1{
+    font-size: 32px;
+    font-weight: 900;
+    margin-left: 70px;
+}
+
+.img-company{
+    height: 180px;
+    width: 180px;
+    margin-left: 100px;
+ }
+
+
+#form-button{
+    background-color:  rgb(0, 53, 0);
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+.control{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-width: 0;
+
+    background-color: rgb(0, 53, 0);
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    
+    color: rgb(216, 215, 215);
+}
+
+
+
+
+@media (max-width: 576px) { 
+    
+    #form{
+        background-color: rgba(0, 0, 0, 0.863);
+        color: white;
+        height: 100%;
+        width: auto;
+        border-radius: 0;
+        padding: 80px 18px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -70px;
+        margin-bottom: auto;
+    }
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    
+ }
+
+
+@media (min-width: 768px) { }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) {  }
